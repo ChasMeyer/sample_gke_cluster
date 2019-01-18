@@ -21,16 +21,16 @@ Kubernetes on GCP using GKE
    
 1. Plan a deployment. This will perform a dry run. 
    ```
-   $ terraform plan --var-file=/path/to/tfvars/file
+   $ terraform plan
    ```
    
 1. Perform a deployment. 
    ```
-   $ terraform apply --var-file=/path/to/tfvars/file
+   $ terraform apply
    ```
    
 1. Destroy all terraform managed resources
    ```
-   $ terraform destroy --var-file=/path/to/tfvars/file
+   $ terraform destroy
    ```
  
