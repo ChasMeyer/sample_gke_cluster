@@ -15,8 +15,6 @@ cluster_min_version = "1.11.6-gke.2"
 default_node_pool_max_node_count = 3 // per zone
 default_node_pool_min_node_count = 1 // per zone
 
-devops_service_account_email = ""
-
 environments = [
   "dev",
   "qa",
